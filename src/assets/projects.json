@@ -1,0 +1,128 @@
+[
+    {
+      "name": "Pac-Man (Full-Stack Game)",
+      "organization": "Rice University · COMP 504",
+      "period": "Oct 2022 – Dec 2022",
+      "highlights": [
+        "Led a team of 5 graduate students to build a full-stack Pac-Man game using Java Spark with MVC architecture.",
+        "Designed and implemented REST APIs to connect the front-end UI with backend game logic.",
+        "Applied object-oriented design principles to ensure scalability, modularity, and reusability."
+      ]
+    },
+    {
+      "name": "Chat Application",
+      "organization": "Rice University · COMP 504",
+      "period": "Aug 2022 – Oct 2022",
+      "highlights": [
+        "Led a team of 5 graduate students to develop a real-time chat application using Java Spark (MVC).",
+        "Implemented WebSockets to enable real-time messaging and bidirectional communication.",
+        "Designed scalable backend services supporting concurrent users."
+      ]
+    },
+    {
+      "name": "MNIST Handwritten Digit Classification with SOM",
+      "organization": "Rice University",
+      "period": "Feb 2022 – Apr 2022",
+      "highlights": [
+        "Explored Self-Organizing Maps (SOM) for handwritten digit classification using the MNIST dataset.",
+        "Analyzed SOM performance as an alternative to CNN-based approaches.",
+        "Studied biologically inspired learning techniques and their effectiveness on visual datasets."
+      ]
+    },
+    {
+      "name": "Text Translation in Images",
+      "organization": "Rice University",
+      "period": "Feb 2022 – Apr 2022",
+      "highlights": [
+        "Built a deep-learning pipeline to extract and translate text from images for non-native English speakers.",
+        "Used EasyOCR on ICDAR-2013 dataset for text recognition.",
+        "Applied mBART-Large-50 transformer for multilingual text translation using NLP and CV techniques."
+      ]
+    },
+    {
+      "name": "Hope Simpson COVID-19 Analysis Platform",
+      "organization": "Rice University",
+      "period": "Aug 2021 – Feb 2022",
+      "link": "https://github.com/arjunsundaram4/HsMap",
+      "highlights": [
+        "Developed and maintained a COVID-19 data analysis and visualization platform using React and GraphQL.",
+        "Improved site load performance by 20% through frontend and data-layer optimizations.",
+        "Used Google Lighthouse to audit and improve performance and tooling integration."
+      ]
+    },
+    {
+      "name": "PacMites (AI Search Algorithms – PACWAR)",
+      "organization": "Rice University",
+      "period": "Sep 2021 – Dec 2021",
+      "highlights": [
+        "Implemented AI agents (‘Pacmites’) with genetic algorithms and hill-climbing search strategies.",
+        "Designed gene-based behavior systems and evaluated algorithmic performance.",
+        "Built simulations in Python to compare optimization techniques."
+      ]
+    },
+    {
+      "name": "Buyer–Seller Protocol using Blockchain & Computer Vision",
+      "organization": "Amrita Vishwa Vidyapeetham",
+      "period": "Aug 2020 – Jun 2021",
+      "highlights": [
+        "Designed a blockchain-based buyer-seller protocol with digital watermarking for multimedia tracking.",
+        "Implemented a proof-of-concept using Flask and Python.",
+        "Used GAN-based watermarking to ensure robustness against attacks while preserving content quality."
+      ]
+    },
+    {
+      "name": "Vscripts (JavaScript-Based Language)",
+      "organization": "Amrita Vishwa Vidyapeetham",
+      "period": "Nov 2020 – Jan 2021",
+      "highlights": [
+        "Designed a JavaScript-based programming language to explore real-time language execution.",
+        "Focused on improving efficiency and reliability of language runtime behavior."
+      ]
+    },
+    {
+      "name": "Home Automation using Google Assistant",
+      "organization": "Amrita Vishwa Vidyapeetham",
+      "period": "Aug 2020 – Nov 2020",
+      "highlights": [
+        "Built a system to control home appliances using Google Assistant.",
+        "Integrated Adafruit IO and IFTTT services for device automation."
+      ]
+    },
+    {
+      "name": "Stream Data Mining",
+      "organization": "Amrita Vishwa Vidyapeetham",
+      "period": "Aug 2020 – Nov 2020",
+      "highlights": [
+        "Performed opinion mining on social network data streams.",
+        "Modeled data using graph-based representations and clustering techniques."
+      ]
+    },
+    {
+      "name": "Exploring NavIC",
+      "organization": "Amrita Vishwa Vidyapeetham",
+      "period": "Aug 2019 – Dec 2019",
+      "highlights": [
+        "Evaluated accuracy of India’s NavIC GPS module against standard GPS systems.",
+        "Analyzed interference sources and measurement errors."
+      ]
+    },
+    {
+      "name": "Traffic Management System",
+      "organization": "JU Hackathon",
+      "period": "Jul 2019",
+      "highlights": [
+        "Built a prototype traffic management solution during a competitive hackathon."
+      ]
+    },
+    {
+      "name": "Indicon 2018 Conference Website",
+      "organization": "Amrita Vishwa Vidyapeetham · IEEE",
+      "period": "Mar 2018 – Jun 2018",
+      "highlights": [
+        "Developed the official website for IEEE Indicon 2018.",
+        "Built frontend using HTML, CSS (Bootstrap), and JavaScript.",
+        "Implemented backend using PHP (CodeIgniter)."
+      ]
+    }
+  ]
+  

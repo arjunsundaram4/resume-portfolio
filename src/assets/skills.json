@@ -1,0 +1,45 @@
+{
+    "frameworks": [
+      "Node.js",
+      "React.js",
+      "TypeScript",
+      "AngularJS",
+      "Express.js",
+      "GraphQL"
+    ],
+    "cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS Cognito",
+      "AWS API Gateway",
+      "Azure SSO"
+    ],
+    "infrastructure": [
+      "PostgreSQL",
+      "MySQL",
+      "Kafka",
+      "RabbitMQ",
+      "Nginx",
+      "Apache",
+      "Grafana",
+      "Splunk"
+    ],
+    "languages": [
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "C",
+      "C++",
+      "PHP",
+      "SQL"
+    ],
+    "security": [
+      "OWASP",
+      "SSO",
+      "2FA",
+      "Session Management",
+      "Access Control"
+    ]
+  }
+  

@@ -1,0 +1,64 @@
+[
+    {
+      "title": "Technical Lead",
+      "company": "Paycom Payroll LLC",
+      "location": "Grapevine, TX",
+      "period": "Sep 2025 – Present",
+      "details": [
+        "Leading platform engineering initiatives for user access management, session handling, and enterprise security.",
+        "Architecting scalable infrastructure and mentoring developers across teams."
+      ]
+    },
+    {
+      "title": "Team Leader – Software Development",
+      "company": "Paycom Payroll LLC",
+      "location": "Grapevine, TX",
+      "period": "Jun 2024 – Sep 2025",
+      "details": [
+        "Directed medium to large-scale enterprise projects in payroll and human capital management systems.",
+        "Architected highly scalable access management solutions handling tenant-wide permissions.",
+        "Introduced automated integration testing with 100% coverage for core infrastructure.",
+        "Reduced live production issues by 50% and processing time from 60s+ to under 5s.",
+        "Implemented monitoring via Grafana and Splunk enabling proactive resolution of 80% of issues.",
+        "Integrated Jira Change Management with GitLab pipelines, doubling development efficiency.",
+        "Built documentation hub covering 70%+ modules, reducing onboarding time by 20%.",
+        "Coached interns to build a component library and developer documentation platform."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Paycom Payroll LLC",
+      "location": "Grapevine, TX",
+      "period": "Feb 2023 – Jun 2024",
+      "details": [
+        "Developed enterprise authentication systems including 2FA, SSO, recovery flows, and session management.",
+        "Implemented OWASP security best practices across access management modules.",
+        "Led scalability improvements for login and permission systems across all Paycom tenants.",
+        "Worked extensively with PHP, React, SQL, TypeScript, Splunk, and Grafana."
+      ]
+    },
+    {
+      "title": "Software Engineering Intern",
+      "company": "HBO Max (Warner Bros. Discovery)",
+      "location": "Remote – Seattle",
+      "period": "Jun 2022 – Aug 2022",
+      "details": [
+        "Built internal tooling using React and TypeScript for subscription and billing support.",
+        "Integrated CI/CD pipelines using GitHub Workflows and Artifactory.",
+        "Contributed to customer-facing commerce and streaming platform features."
+      ]
+    },
+    {
+      "title": "Software Development Consultant",
+      "company": "SEIU 775 Benefits Group",
+      "location": "Mysore, India",
+      "period": "Aug 2020 – Jul 2021",
+      "details": [
+        "Built analytics reporting platform using React and AWS Elastic Beanstalk.",
+        "Implemented SSO across multiple services.",
+        "Maintained access management systems and migrated production PostgreSQL databases.",
+        "Developed custom Moodle plugins (PHP) and mentored interns."
+      ]
+    }
+  ]
+  
