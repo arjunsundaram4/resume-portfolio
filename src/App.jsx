@@ -7,26 +7,32 @@ import Education from "./components/sections/Education"
 import Skills from "./components/sections/Skills"
 import Experience from "./components/sections/Experience"
 import Projects from "./components/sections/Projects"
+import Certifications from "./components/sections/Certifications"
+import Courses from "./components/sections/Courses"
+import Recommendations from "./components/sections/Recommendations"
 
 export default function App() {
   const [active, setActive] = useState("about")
 
   return (
-     <div className="min-h-screen flex flex-col bg-white text-gray-900">
-           <Header />
+    <div className="min-h-screen flex flex-col bg-white text-gray-900">
+      <Header />
       <Navigation active={active} setActive={setActive} />
 
 
-     {/* Main content expands to push footer down */}
-     <main className="flex-1 max-w-5xl mx-auto w-full px-4 sm:px-6 lg:px-8">
-     {active === "about" && <About />}
+      {/* Main content expands to push footer down */}
+      <main className="flex-1 max-w-5xl mx-auto w-full px-4 sm:px-6 lg:px-8">
+        {active === "about" && <About />}
         {active === "education" && <Education />}
         {active === "skills" && <Skills />}
         {active === "experience" && <Experience />}
         {active === "projects" && <Projects />}
-     </main>
+        {active === "courses" && <Courses />}
+        {active === "certifications" && <Certifications />}
+        {active === "recommendations" && <Recommendations />}
+      </main>
 
-     <Footer />
-   </div>
+      <Footer />
+    </div>
   )
 }

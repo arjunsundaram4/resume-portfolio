@@ -1,71 +1,83 @@
 import { useState } from "react"
+import { Menu, X } from "lucide-react"
 
 export default function Navigation({ active, setActive }) {
-  const sections = ["about", "education", "skills", "experience", "projects"]
   const [open, setOpen] = useState(false)
+
+  const sections = [
+    "about",
+    "education",
+    "skills",
+    "experience",
+    "projects",
+    "courses",
+    "certifications",
+    "recommendations"
+  ]
+
+  const handleClick = (section) => {
+    setActive(section)
+    setOpen(false)
+  }
 
   return (
     <nav className="sticky top-0 bg-white border-b z-50">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
-        {/* Logo / Brand */}
-        <div className="font-bold text-lg">Arjun</div>
+      <div className="max-w-5xl mx-auto px-4">
 
-        {/* Desktop Menu */}
-        <div className="hidden md:flex gap-4">
-          {sections.map(s => (
-            <button
-              key={s}
-              onClick={() => setActive(s)}
-              className={`px-4 py-2 rounded ${
-                active === s ? "bg-black text-white" : "text-gray-600 hover:bg-gray-100"
-              }`}
-            >
-              {s.toUpperCase()}
-            </button>
-          ))}
-        </div>
+        {/* Top bar */}
+        <div className="flex justify-between items-center py-3">
 
-        {/* Mobile Hamburger */}
-        <button
-          className="md:hidden p-2 rounded hover:bg-gray-100"
-          onClick={() => setOpen(!open)}
-          aria-label="Toggle menu"
-        >
-          <svg
-            className="h-6 w-6"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            viewBox="0 0 24 24"
+          <span className="md:hidden font-semibold text-lg">
+            Portfolio
+          </span>
+
+          {/* Hamburger button */}
+          <button
+            className="md:hidden"
+            onClick={() => setOpen(!open)}
           >
-            {open ? (
-              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-            ) : (
-              <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-            )}
-          </svg>
-        </button>
-      </div>
+            {open ? <X size={26} /> : <Menu size={26} />}
+          </button>
 
-      {/* Mobile Menu */}
-      {open && (
-        <div className="md:hidden border-t">
-          {sections.map(s => (
-            <button
-              key={s}
-              onClick={() => {
-                setActive(s)
-                setOpen(false) // close menu after selection
-              }}
-              className={`w-full text-left px-4 py-3 border-b hover:bg-gray-100 ${
-                active === s ? "bg-black text-white" : "text-gray-700"
-              }`}
-            >
-              {s.toUpperCase()}
-            </button>
-          ))}
+          {/* Desktop nav */}
+          <div className="hidden md:flex gap-4">
+            {sections.map((s) => (
+              <button
+                key={s}
+                onClick={() => setActive(s)}
+                className={`px-3 py-2 rounded-md text-sm transition ${
+                  active === s
+                    ? "bg-black text-white"
+                    : "text-gray-600 hover:bg-gray-100"
+                }`}
+              >
+                {s.toUpperCase()}
+              </button>
+            ))}
+          </div>
+
         </div>
-      )}
+
+        {/* Mobile menu */}
+        {open && (
+          <div className="flex flex-col gap-2 pb-4 md:hidden">
+            {sections.map((s) => (
+              <button
+                key={s}
+                onClick={() => handleClick(s)}
+                className={`px-3 py-2 rounded-md text-left ${
+                  active === s
+                    ? "bg-black text-white"
+                    : "text-gray-600 hover:bg-gray-100"
+                }`}
+              >
+                {s.toUpperCase()}
+              </button>
+            ))}
+          </div>
+        )}
+
+      </div>
     </nav>
   )
 }

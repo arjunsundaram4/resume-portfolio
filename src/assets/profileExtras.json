@@ -1,0 +1,82 @@
+{
+  "recommendations": [
+    {
+      "name": "Allen Chen",
+      "role": "Software Developer",
+      "relationship": "Reported to Arjun",
+      "date": "Dec 2025",
+      "quote": "Arjun is a skilled problem solver and an incredible leader. He delivered multiple mission-critical initiatives while cultivating a collaborative team environment. He is an excellent communicator and works cross-functionally with ease.",
+      "link": "https://www.linkedin.com/in/arjunsundaram4/details/recommendations/"
+    },
+    {
+      "name": "Brent Jordan",
+      "role": "Strategic Leader – Software Development & Platform Engineering",
+      "relationship": "Manager",
+      "date": "Dec 2025",
+      "quote": "Arjun is an exceptional leader who models accountability and ownership. His team consistently excelled under his mentorship and he combines technical mastery with genuine concern for his team’s success.",
+      "link": "https://www.linkedin.com/in/arjunsundaram4/details/recommendations/"
+    },
+    {
+      "name": "Kaleb Ernst",
+      "role": "Software Engineer II – Leonardo DRS",
+      "relationship": "Teammate",
+      "date": "Jun 2025",
+      "quote": "Arjun’s knowledge and work ethic were unmatched. I witnessed multiple innovative initiatives he led and delivered quickly. He is a great leader and a tremendous asset to any team.",
+      "link": "https://www.linkedin.com/in/arjunsundaram4/details/recommendations/"
+    },
+    {
+      "name": "Mohammed Awad",
+      "role": "Staff Software Engineer – Tesla",
+      "relationship": "Senior colleague",
+      "date": "Jan 2025",
+      "quote": "Arjun has a rare ability to think creatively while delivering results. His innovative ideas and collaborative spirit consistently elevated our projects.",
+      "link": "https://www.linkedin.com/in/arjunsundaram4/details/recommendations/"
+    },
+    {
+      "name": "Karthik Kolli",
+      "role": "Engineering Leader",
+      "relationship": "Teammate",
+      "date": "May 2024",
+      "quote": "Arjun consistently exceeds expectations. His adaptability, commitment to optimal solutions, and positive team impact make him an exceptional professional.",
+      "link": "https://www.linkedin.com/in/arjunsundaram4/details/recommendations/"
+    },
+    {
+      "name": "Ashiv Sharma",
+      "role": "Engineer – FanDuel",
+      "relationship": "Mentor",
+      "date": "Aug 2022",
+      "quote": "Arjun was an incredible intern who quickly delivered a product used by the team. His collaboration skills and eagerness to learn stood out.",
+      "link": "https://www.linkedin.com/in/arjunsundaram4/details/recommendations/"
+    },
+    {
+      "name": "Lei Feng",
+      "role": "Engineering Manager – HBO Max",
+      "relationship": "Manager",
+      "date": "Aug 2022",
+      "quote": "Arjun demonstrated strong problem-solving, fast learning, and high-quality contributions across both frontend and backend services.",
+      "link": "https://www.linkedin.com/in/arjunsundaram4/details/recommendations/"
+    }
+  ],
+
+  "courses": [
+    {"title": "Artificial Intelligence", "code": "COMP 557", "university": "Rice University"},
+    {"title": "Deep Learning for Vision and Language", "code": "COMP 646", "university": "Rice University"},
+    {"title": "Graduate Design and Analysis of Algorithms", "code": "COMP 582", "university": "Rice University"},
+    {"title": "Graduate Object-Oriented Programming and Design", "code": "COMP 504", "university": "Rice University"},
+    {"title": "Tools & Models – Data Science", "code": "COMP 543", "university": "Rice University"},
+    {"title": "Introduction to Computer Security", "code": "COMP 541", "university": "Rice University"},
+    {"title": "Leadership Coaching for Engineers", "code": "ENGI 615", "university": "Rice University"},
+    {"title": "Learning How to Innovate", "code": "ENGI 614", "university": "Rice University"},
+    {"title": "Neural Machine Learning I", "code": "COMP 502", "university": "Rice University"},
+    {"title": "RVR, DSP, ML Project", "code": "ELEC 591", "university": "Rice University"}
+  ],
+
+  "certifications": [
+    {"title": "Ethical Hacking From Scratch", "issuer": "Zaid Q Cyber Security", "year": "2021"},
+    {"title": "Responsible Conduct of Research for Engineers", "issuer": "CITI Program", "year": "2021"},
+    {"title": "Intro to JavaScript", "issuer": "Udemy", "year": "2019"},
+    {"title": "Web Design for Web Developers", "issuer": "Udemy", "year": "2019"},
+    {"title": "Angular for Beginners", "issuer": "Angular University", "year": "2019"},
+    {"title": "CodeIgniter Foundation Classes", "issuer": "Tweek Coder Learning Solutions", "year": "2019"}
+  ]
+}
